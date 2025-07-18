@@ -8,3 +8,7 @@ cloudinary
 pyairtable
 python-dotenv
 gunicorn
+librosa
+scipy
+soundfile
+numpy
