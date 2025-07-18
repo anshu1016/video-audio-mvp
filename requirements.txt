@@ -1,0 +1,10 @@
+# requirements.txt
+# List of Python packages required for the project
+flask
+moviepy
+requests
+pydub
+cloudinary
+pyairtable
+python-dotenv
+gunicorn

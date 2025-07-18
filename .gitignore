@@ -1,0 +1,6 @@
+.env
+media/
+audio_venv2/
+routes/
+__pycache__/
+*.pycaudio_venv2/
