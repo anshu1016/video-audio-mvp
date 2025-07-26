@@ -40,7 +40,7 @@ def upload_video():
         return jsonify({"error": "No video file provided"}), 400
 
     file = request.files['video']
-    language = request.form.get('language', 'en-IN')
+    language = request.form.get('language', 'auto')
 
     if not allowed_file(file.filename):
         return jsonify({"error": "Invalid file type"}), 400
